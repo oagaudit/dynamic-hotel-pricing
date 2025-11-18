@@ -1,0 +1,21 @@
+feature,importance
+competitor_avg_price,33.06581674457581
+price_percentile,5.641653869798372
+reserved_room_type_A,0.35744292600423294
+hotel_type_encoded,0.16711221330821527
+market_segment_Groups,0.12740344795248007
+adr_rolling_mean_7d,0.12091694902815402
+hotel_premium_index,0.11804735285576924
+advance_booking,0.06681062303927823
+market_segment_Offline TA/TO,0.056533687362232236
+room_nights,0.05365759208726838
+arrival_month_sin,0.051842719020465236
+market_demand_index,0.0399507526428184
+is_canceled,0.03931475686767851
+stays_in_week_nights,0.021067524549910118
+adr_lag_7d,0.00839299302867803
+lead_time_x_total_nights,0.001933653129195003
+country_DEU,0.0
+country_DMA,0.0
+country_IRQ,0.0
+country_CZE,0.0

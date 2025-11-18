@@ -1,0 +1,21 @@
+feature
+country_CZE
+country_DEU
+country_IRQ
+country_DMA
+lead_time_x_total_nights
+adr_lag_7d
+stays_in_week_nights
+is_canceled
+market_demand_index
+arrival_month_sin
+room_nights
+market_segment_Offline TA/TO
+advance_booking
+hotel_premium_index
+adr_rolling_mean_7d
+market_segment_Groups
+hotel_type_encoded
+reserved_room_type_A
+price_percentile
+competitor_avg_price
