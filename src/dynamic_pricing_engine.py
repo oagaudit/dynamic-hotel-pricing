@@ -252,8 +252,8 @@ class DynamicPricingEngine:
 if __name__ == "__main__":
     # Initialize the pricing engine
     engine = DynamicPricingEngine(
-        model_path="models/xgboost_baseline_model_business.pkl",
-        features_path="data/processed/selected_features_list_business.csv"
+        model_path="models/xgboost_baseline_model_final.pkl",
+        features_path="data/processed/selected_features_list_final.csv"
     )
     
     # Test prediction
