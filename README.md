@@ -1,4 +1,4 @@
-## 📌 Introduction
+## Introduction
 
 This project is the Capstone for my Master's degree in Data Science.
 
@@ -6,7 +6,7 @@ The **Dynamic Hotel Pricing Model (DPM)** addresses the limitations of tradition
 
 ---
 
-## 📊 Model Performance & Evaluation
+## Model Performance & Evaluation
 
 The model performance is evaluated using standard regression metrics, showing **exceptional performance** on the held-out test set:
 
@@ -16,7 +16,7 @@ The model performance is evaluated using standard regression metrics, showing **
 
 ---
 
-## 🔍 Top 20 Features Driving ADR
+## Top 20 Features Driving ADR
 
 The feature selection process identified 20 core predictors. These features fall into key categories, enabling the model to capture market complexities:
 
@@ -25,7 +25,7 @@ The feature selection process identified 20 core predictors. These features fall
 * **Segmentation & Origin:** `market_segment_Groups`, `market_segment_Offline TA/TO`, and specific country indicators (`country_CZE`, `DEU`, `IRQ`, `DMA`).
 * **Hotel & Temporal:** `reserved_room_type_A`, `hotel_type_encoded`, `arrival_month_sin` (for seasonality).
 
-### ⭐ Top 5 Features by SHAP Technique
+### Top 5 Features by SHAP Technique
 
 SHAP analysis provides local explainability for each price prediction. For a sample prediction, the 5 most influential features were:
 
@@ -37,9 +37,9 @@ SHAP analysis provides local explainability for each price prediction. For a sam
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
-### **1️⃣ Clone Repository & Setup Environment**
+### **1. Clone Repository & Setup Environment**
 
 ```bash
 git clone https://github.com/oagaudit/dynamic-hotel-pricing.git
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ---
 
-### **2️⃣ Setup Ollama LLM (for Strategic Recommendations)**
+### **2. Setup Ollama LLM (for Strategic Recommendations)**
 
 You must have the Ollama server installed and running locally.
 
@@ -64,11 +64,11 @@ ollama pull llama3.2:1b
 ollama list
 ```
 
-> Ensure the Ollama server is running (default: `http://localhost:11434`) before pipeline steps 7, 10, and 11.
+> Ensure the Ollama server is running (default: `http://localhost:11434`)  
 
 ---
 
-## ⚙️ Pipeline Execution
+## 3. Pipeline Execution
 
 Run the following scripts sequentially to process data, train the model, and prepare the pricing engine.
 
@@ -88,7 +88,7 @@ Run the following scripts sequentially to process data, train the model, and pre
 
 ---
 
-## 🚀 Launch the Web Dashboard
+## 4. Launch the Web Dashboard
 
 Run the final command to launch the Streamlit UI.
 
@@ -98,6 +98,7 @@ streamlit run app/streamlit_app.py
 
 ---
 
-## 📜 License
+## License
 
 This project is intended for academic and research purposes as part of a Master's Capstone project and is released under the **MIT License**.
+
