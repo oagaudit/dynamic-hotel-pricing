@@ -58,7 +58,7 @@ pip install -r requirements.txt
 ### **2. Setup Ollama LLM (for Strategic Recommendations)**
 
 You must have the Ollama server installed and running locally.
-
+Download Ollama from this link first : https://ollama.com/library/llama3.2:1b
 ```bash
 ollama pull llama3.2:1b
 ollama list
@@ -101,4 +101,5 @@ streamlit run app/streamlit_app.py
 ## License
 
 This project is intended for academic and research purposes as part of a Master's Capstone project and is released under the **MIT License**.
+
 
