@@ -42,7 +42,7 @@ class LLMRecommender:
             pricing_context = {}
         
         try:
-            # ✅ Get correct price data from pricing_context
+            #  Get correct price data from pricing_context
             optimal_price = pricing_context.get('optimal_price', 0)
             competitor_price = pricing_context.get('competitor_price', 0)
             base_price = pricing_context.get('base_price', 0)
