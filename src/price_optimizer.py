@@ -3,11 +3,11 @@ from typing import Dict, List, Any
 from enum import Enum
 
 class PricingStrategy(Enum):
-    MARKET_PENETRATION = "market_penetration"      # ราคาต่ำกว่าตลาดเพื่อดึงส่วนแบ่ง
-    REVENUE_MAXIMIZATION = "revenue_maximization"  # เพิ่มรายได้ให้มากที่สุด
-    COMPETITIVE_MATCH = "competitive_match"        # ตามคู่แข่งหลัก
-    PREMIUM_POSITIONING = "premium_positioning"    # ราคาสูงกว่าตลาด
-    DEMAND_BASED = "demand_based"                  # ตาม demand
+    MARKET_PENETRATION = "market_penetration"      # Price lower than market to gain market share
+    REVENUE_MAXIMIZATION = "revenue_maximization"  # Maximize revenue as much as possible
+    COMPETITIVE_MATCH = "competitive_match"        # Follow main competitors
+    PREMIUM_POSITIONING = "premium_positioning"    # Price higher than market
+    DEMAND_BASED = "demand_based"                  # Based on demand
 
 class PriceOptimizer:
     def __init__(self):
@@ -86,7 +86,7 @@ class PriceOptimizer:
         }
     
     def _validate_price_comparison(self, optimal_price: float, market_avg: float) -> str:
-        """✅ FIXED: Correct indentation"""
+        """ FIXED: Correct indentation"""
         if optimal_price < market_avg:
             return f"lower than market average (${optimal_price:.2f} vs ${market_avg:.2f})"
         elif optimal_price > market_avg:
